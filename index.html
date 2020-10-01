@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartUpHouse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=entypo">
+</head>
+<body>
+<header>
+    <div class="container block-menu">
+			<span class="block-logo">
+				<img src="img/SHLogoT 1Logo.svg" class="logo" alt="">
+			<h2 class="logo_title">STARTUP HOUSE</h2>
+			</span>
+        <ul class="menu_block">
+            <li><a href="#">Find a home</a></li>
+            <li><a href="#">Comunity</a></li>
+            <li><a href="#">Become a host</a></li>
+            <li><a href="#">Why Startup House</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#" class="buton_register">Sign Up</a></li>
+        </ul>
+    </div>
+</header>
+<section class="block_fillter">
+    <form action="#" class="filter-form">
+        <input type="text" class="search_location" placeholder="Location">
+        <a href="#" class="check">Check in - Check out</a>
+        <input type="number" class="prise" placeholder="price">
+        <span class="minus">-</span>
+        <input type="number" id="Guesty" class="guesty" placeholder="Guesty" disabled>
+        <span class="plus">+</span>
+        <input type="submit" style="display: none;">
+    </form>
+    <div class="more">
+        <a href="#" class="but_more">More</a>
+        <div class="more_block">
+            <h2>Interests & skills</h2>
+            <form action="">
+                <input type="text" placeholder="Enter your Interests & skills" class="req_interes" id="interes">
+                <div class="user_select" id="user_select_one">
+                </div>
+
+            </form>
+            <h2>Sphere of future startsup</h2>
+            <form action="">
+                <input type="text" placeholder="Enter sphere" class="req_interes" id="sphere">
+                <div class="user_select" id="user_select_two">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="block_content">
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A54be130fcbd3b1d5866d8f16202e0bf85cefae5cb32e3cd7b79465d9686e6a9f&amp;source=constructor"
+            width="980" height="782" class="map" frameborder="1"></iframe>
+    <div class="block_list_home">
+        <h2>Location Listings</h2>
+        <div class="grid_columm">
+                                    <!--<div class="block_home">
+                                        <span class="status">
+                                            <span class="green"></span>Есть места на эти даты
+                                        </span>
+                                        <span class="entypo-heart"></span>
+                                        <img src="undown" alt="Home" class="foto_home">
+                                        <div class="info_home">
+                                            <span class="price">2300$</span>
+                                            <span class="info_about_home">3 pr | 5 bd | 6 ba  </span>
+                                            <p class="adress">1967 Macross Dr, San Jose, CA 95131</p>
+                                        </div>
+                                    </div>-->
+        </div>
+    </div>
+</section>
+<section class="modals">
+    <div class="modal" hidden>
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <div class="content_img">
+                    <img src="undown" alt="">
+                    <img src="undown" alt="">
+                    <img src="undown" alt="">
+                    <img src="undown" alt="">
+                    <img src="undown" alt="">
+                </div>
+                <div class="line"></div>
+                <div class="content_info">
+                    <img src="img/SHLogoT 1Logo.svg" alt="" class="logo_modal">
+                    <div class="content_info_home">
+							<span class="price_modal">
+								Palo Alto
+							</span>
+                        <span class="about_home_modal">
+								244.44
+							</span>
+                        <p class="about_adress_modal">
+                            1841 Macross Dr, San Jose, CA 95621
+                        </p>
+                        <span class="status_modal">
+								<span class="green"></span>
+								Есть места на эти даты
+							</span>
+                        <a href="#" class="button_modal_book">
+                            Book Now
+                        </a>
+                        <a href="#" class="button_modal_mananger">
+                            Contact a house manager
+                        </a>
+                        <hr>
+                        <nav class="menu_targer_select_option">
+                            <ul>
+                                <li class="active">Overview</li>
+                                <li>Rooms</li>
+                                <li>Amenities</li>
+                                <li>Rules</li>
+                                <li>Projects</li>
+                                <li>Neighborhood</li>
+                                <span class="opasity_effect">
+									</span>
+                            </ul>
+                        </nav>
+                        <div class="content_targer">
+                            <div class="foto-block">
+                                <img src="undown" alt="" class="overview-foto">
+                                <img src="undown" alt="" class="next_to_img">
+                                <img src="img/Vectorzoom.svg" class="zoom" alt="">
+                            </div>
+                            <div class="text_content">
+                                <h2>Overview</h2>
+                                <p>More than a house, we are a startup founders community. We host entrepreneurs, but
+                                    also engineers and students who want to start their own business. Live, learn and
+                                    achieve, while getting the full Silicon Valley experience! <br><br>Spacious,
+                                    cheerful, sunny rooms of a large house in Atherton, professionally cleaned daily.
+                                    <br><br> Upon booking, please introduce yourself, thanks and welcome to our
+                                    community!</p>
+                            </div>
+                            <div class="house_manager_message">
+                                <img src="undown" alt="" class="foto_house_manager">
+                                <h3 class="name_house_manager">
+                                    Matt
+                                </h3>
+                                <p class="message_house_manager">
+                                    House manager & python dev
+                                </p>
+                            </div>
+                            <h2 class="title_preview">Amenties
+                            </h2>
+                            <div class="previews_home">
+                                <div class="columm_one">
+                                    <div class="block_about_home">
+                                        <h3>Parking</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/car2.svg" alt=""> Paid Parking on Premises
+                                            </li>
+                                            <li>
+                                                <img src="img/p.svg" alt="">
+                                                Free Parking on Street
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>Safety</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/fireman.svg" alt=""> Fire Extinguisher
+                                            </li>
+                                            <li>
+                                                <img src="img/Vector-12.svg" alt="">
+                                                Carbon Monoxide Detector
+                                            </li>
+                                            <li>
+                                                <img src="img/Vector-12.svg" alt="">
+                                                Smoke detector
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>Workspace and TV</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/noteboock.svg" alt=""> Laptop Friendly Workspace
+                                            </li>
+                                            <li>
+                                                <img src="img/wifi.svg" alt="">
+                                                Wireless Internet
+                                            </li>
+                                            <li>
+                                                <img src="img/tv.svg" alt="">
+                                                TV
+                                            </li>
+                                            <li>
+                                                <img src="img/cabletv.svg" alt="">
+                                                Cable TV
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>Cleanness</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/hotub.svg" alt=""> Hot Tub
+                                            </li>
+                                            <li>
+                                                <img src="img/Washer.svg" alt="">
+                                                Washer
+                                            </li>
+                                            <li>
+                                                <img src="img/dryer.svg" alt="">
+                                                Dryer
+                                            </li>
+                                            <li>
+                                                <img src="img/salon.svg" alt="">
+                                                Hair Dryer
+                                            </li>
+                                            <li>
+													<span class="figure">
+													</span>
+                                                Iron
+                                            </li>
+                                            <li>
+													<span class="figure">
+													</span>
+                                                Essentials
+                                            </li>
+                                            <li>
+													<span class="figure">
+													</span>
+                                                Shampoo
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="columm_two">
+                                    <div class="block_about_home">
+                                        <h3>Kithcen</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/microwave.svg" alt=""> Microwave
+                                            </li>
+                                            <li>
+                                                <img src="img/diwa.svg" alt="">
+                                                Dishwasher
+                                            </li>
+                                            <li>
+                                                <img src="img/oven.svg" alt="">
+                                                Oven
+                                            </li>
+                                            <li>
+                                                <img src="img/stove.svg" alt="">
+                                                Stove
+                                            </li>
+                                            <li>
+                                                <img src="img/Refrigerator.svg" alt="">
+                                                Refrigerator
+                                            </li>
+                                            <li><img src="img/cookware.svg" alt="">
+                                                Cookware
+                                            </li>
+                                            <li><img src="img/dishes.svg" alt="">
+                                                Dishes and silverware
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>
+                                            Othet amenities
+                                        </h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/fkf.svg" alt=""> Family/Kid Friendly
+                                            </li>
+                                            <li>
+                                                <img src="img/fireplace.svg" alt="">
+                                                Indoor Fireplace
+                                            </li>
+                                            <li>
+                                                <img src="img/garden.svg" alt="">
+                                                Garden or backyard
+                                            </li>
+                                            <li>
+                                                <span class="figure"></span>
+                                                Patio or balcony
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>Service</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/cafe.svg" alt=""> Coffee maker
+                                            </li>
+                                            <li>
+                                                <img src="img/anbulance.svg" alt="">
+                                                First Aid Kit
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="rules_title_target">Rules</h2>
+                            <div class="block_home_rules">
+                                <ul>
+                                    <li>Not siutable for children and infants</li>
+                                    <li>Not smoking</li>
+                                    <li>Not pets</li>
+                                    <li>Not parties or events</li>
+                                    <li>Check-in is anytime after 3PM
+                                    </li>
+                                </ul>
+                            </div>
+                            <h2 class="project_hone_target">Projects</h2>
+                            <div class="block_home_projects">
+                                <div class="columm_one">
+										<span class="statuse">
+											<span class="greens"></span>
+											Your skils will be useful
+										</span>
+                                </div>
+                                <div class="columm_two">
+                                    <h2>Poopa & Loopa</h2>
+                                    <a href="#">Learn more</a>
+                                </div>
+                            </div>
+                            <hr class="line_shows">
+                            <h4>Show other</h4>
+                            <hr class="line_show">
+                            <h2 class="neighborhood">Neighborhood</h2>
+                            <div class="block_neigh_home_geolocation">
+                                <form action="#">
+                                    <label for="selec">Show:</label>
+                                    <select name="sel" id="selec" class="selec">
+                                        <option value="Gym" selected="Gym">Gym</option>
+                                        <option value="-------">------</option>
+                                    </select>
+                                    <input type="submit" name="sub" style="display: none;">
+                                </form>
+                                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A54be130fcbd3b1d5866d8f16202e0bf85cefae5cb32e3cd7b79465d9686e6a9f&amp;source=constructor"
+                                        width="532" height="270" class="map" frameborder="1"></iframe>
+                            </div>
+                            <h2 class="ask_house_manager">Ask the house manager</h2>
+                            <div class="block_form_message_for_menager">
+                                <form action="">
+                                    <input type="text" class="in_info" placeholder="Name">
+                                    <input type="number" placeholder="Phone" class="in_info">
+                                    <input type="email" placeholder="Email" class="in_info">
+                                    <textarea class="message"></textarea>
+                                    <input placeholder="Add your ask" type="submit" class="submited"
+                                           value="Ask a quation">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" hidden>
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <div class="content_img">
+                    <img src="undown" alt="">
+                    <img src="undown" alt="">
+                    <img src="undown" alt="">
+                    <img src="undown" alt="">
+                    <img src="undown" alt="">
+                </div>
+                <div class="line"></div>
+                <div class="content_info">
+                    <img src="img/SHLogoT 1Logo.svg" alt="" class="logo_modal">
+                    <div class="content_info_home">
+							<span class="price_modal">
+								Alamo Square
+							</span>
+                        <span class="about_home_modal">
+								609.16
+							</span>
+                        <p class="about_adress_modal">
+                            1841 Macross Dr, San Jose, CA 95621
+                        </p>
+                        <span class="status_modal">
+								<span class="green"></span>
+								Есть места на эти даты
+							</span>
+                        <a href="#" class="button_modal_book">
+                            Book Now
+                        </a>
+                        <a href="#" class="button_modal_mananger">
+                            Contact a house manager
+                        </a>
+                        <hr>
+                        <nav class="menu_targer_select_option">
+                            <ul>
+                                <li class="active">Overview</li>
+                                <li>Rooms</li>
+                                <li>Amenities</li>
+                                <li>Rules</li>
+                                <li>Projects</li>
+                                <li>Neighborhood</li>
+                                <span class="opasity_effect">
+									</span>
+                            </ul>
+                        </nav>
+                        <div class="content_targer">
+                            <div class="foto-block">
+                                <img src="undown" alt="" class="overview-foto">
+                                <img src="undown" alt="" class="next_to_img">
+                                <img src="img/Vectorzoom.svg" class="zoom" alt="">
+                            </div>
+                            <div class="text_content">
+                                <h2>Overview</h2>
+                                <p>More than a house, we are a startup founders community. We host entrepreneurs, but
+                                    also engineers and students who want to start their own business. Live, learn and
+                                    achieve, while getting the full Silicon Valley experience! <br><br>Spacious,
+                                    cheerful, sunny rooms of a large house in Atherton, professionally cleaned daily.
+                                    <br><br> Upon booking, please introduce yourself, thanks and welcome to our
+                                    community!</p>
+                            </div>
+                            <div class="house_manager_message">
+                                <img src="undown" alt="" class="foto_house_manager">
+                                <h3 class="name_house_manager">
+                                    Matt
+                                </h3>
+                                <p class="message_house_manager">
+                                    House manager & python dev
+                                </p>
+                            </div>
+                            <h2 class="title_preview">Amenties
+                            </h2>
+                            <div class="previews_home">
+                                <div class="columm_one">
+                                    <div class="block_about_home">
+                                        <h3>Parking</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/car2.svg" alt=""> Paid Parking on Premises
+                                            </li>
+                                            <li>
+                                                <img src="img/p.svg" alt="">
+                                                Free Parking on Street
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>Safety</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/fireman.svg" alt=""> Fire Extinguisher
+                                            </li>
+                                            <li>
+                                                <img src="img/Vector-12.svg" alt="">
+                                                Carbon Monoxide Detector
+                                            </li>
+                                            <li>
+                                                <img src="img/Vector-12.svg" alt="">
+                                                Smoke detector
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>Workspace and TV</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/noteboock.svg" alt=""> Laptop Friendly Workspace
+                                            </li>
+                                            <li>
+                                                <img src="img/wifi.svg" alt="">
+                                                Wireless Internet
+                                            </li>
+                                            <li>
+                                                <img src="img/tv.svg" alt="">
+                                                TV
+                                            </li>
+                                            <li>
+                                                <img src="img/cabletv.svg" alt="">
+                                                Cable TV
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>Cleanness</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/hotub.svg" alt=""> Hot Tub
+                                            </li>
+                                            <li>
+                                                <img src="img/Washer.svg" alt="">
+                                                Washer
+                                            </li>
+                                            <li>
+                                                <img src="img/dryer.svg" alt="">
+                                                Dryer
+                                            </li>
+                                            <li>
+                                                <img src="img/salon.svg" alt="">
+                                                Hair Dryer
+                                            </li>
+                                            <li>
+													<span class="figure">
+													</span>
+                                                Iron
+                                            </li>
+                                            <li>
+													<span class="figure">
+													</span>
+                                                Essentials
+                                            </li>
+                                            <li>
+													<span class="figure">
+													</span>
+                                                Shampoo
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="columm_two">
+                                    <div class="block_about_home">
+                                        <h3>Kithcen</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/microwave.svg" alt=""> Microwave
+                                            </li>
+                                            <li>
+                                                <img src="img/diwa.svg" alt="">
+                                                Dishwasher
+                                            </li>
+                                            <li>
+                                                <img src="img/oven.svg" alt="">
+                                                Oven
+                                            </li>
+                                            <li>
+                                                <img src="img/stove.svg" alt="">
+                                                Stove
+                                            </li>
+                                            <li>
+                                                <img src="img/Refrigerator.svg" alt="">
+                                                Refrigerator
+                                            </li>
+                                            <li><img src="img/cookware.svg" alt="">
+                                                Cookware
+                                            </li>
+                                            <li><img src="img/dishes.svg" alt="">
+                                                Dishes and silverware
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>
+                                            Othet amenities
+                                        </h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/fkf.svg" alt=""> Family/Kid Friendly
+                                            </li>
+                                            <li>
+                                                <img src="img/fireplace.svg" alt="">
+                                                Indoor Fireplace
+                                            </li>
+                                            <li>
+                                                <img src="img/garden.svg" alt="">
+                                                Garden or backyard
+                                            </li>
+                                            <li>
+                                                <span class="figure"></span>
+                                                Patio or balcony
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="block_about_home">
+                                        <h3>Service</h3>
+                                        <ul>
+                                            <li>
+                                                <img src="img/cafe.svg" alt=""> Coffee maker
+                                            </li>
+                                            <li>
+                                                <img src="img/anbulance.svg" alt="">
+                                                First Aid Kit
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="rules_title_target">Rules</h2>
+                            <div class="block_home_rules">
+                                <ul>
+                                    <li>Not siutable for children and infants</li>
+                                    <li>Not smoking</li>
+                                    <li>Not pets</li>
+                                    <li>Not parties or events</li>
+                                    <li>Check-in is anytime after 3PM
+                                    </li>
+                                </ul>
+                            </div>
+                            <h2 class="project_hone_target">Projects</h2>
+                            <div class="block_home_projects">
+                                <div class="columm_one">
+										<span class="statuse">
+											<span class="greens"></span>
+											Your skils will be useful
+										</span>
+                                </div>
+                                <div class="columm_two">
+                                    <h2>Poopa & Loopa</h2>
+                                    <a href="#">Learn more</a>
+                                </div>
+                            </div>
+                            <hr class="line_shows">
+                            <h4>Show other</h4>
+                            <hr class="line_show">
+                            <h2 class="neighborhood">Neighborhood</h2>
+                            <div class="block_neigh_home_geolocation">
+                                <form action="#">
+                                    <label for="selec">Show:</label>
+                                    <select name="sel" id="selec" class="selec">
+                                        <option value="Gym" selected="Gym">Gym</option>
+                                        <option value="-------">------</option>
+                                    </select>
+                                    <input type="submit" name="sub" style="display: none;">
+                                </form>
+                                <!--									<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A54be130fcbd3b1d5866d8f16202e0bf85cefae5cb32e3cd7b79465d9686e6a9f&amp;source=constructor" width="532" height="270" class="map" frameborder="1"></iframe>-->
+                            </div>
+                            <h2 class="ask_house_manager">Ask the house manager</h2>
+                            <div class="block_form_message_for_menager">
+                                <form action="">
+                                    <input type="text" class="in_info" placeholder="Name">
+                                    <input type="number" placeholder="Phone" class="in_info">
+                                    <input type="email" placeholder="Email" class="in_info">
+                                    <textarea class="message"></textarea>
+                                    <input placeholder="Add your ask" type="submit" class="submited"
+                                           value="Ask a quation">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/main.js"></script>
+<!-- JSON -->
+<script src="js/home.json"></script>
+<!-- PARSE -->
+<script src="js/parse.js"></script>
+</body>
+</html>

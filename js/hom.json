@@ -1,0 +1,35 @@
+{
+  "Palo alto": {
+    "checkIn": "2020-09-13 22:00:00",
+    "paid": "PAID: $0 of $419.04",
+    "checkOut": "2020-10-01 18:00:00",
+    "guest": "Willis Jackson",
+    "phone": "+17605695581",
+    "timezone":  "America/Los_Angeles",
+    "room":  "Private",
+    "reservation_id":"5f5c257d1e1a03002995ee6f",
+    "listing_title": "alo Alto Startup House: Semi-Private Room"
+  },
+  "Palo alto": {
+    "checkIn": "2020-09-07 22:00:00",
+    "paid": "PAID: $0 of $244.44",
+    "checkOut": "2020-09-14 18:00:00",
+    "guest": "Joey Jb",
+    "phone": "+17036878383",
+    "timezone":  "America/Los_Angeles",
+    "room":  "Private",
+    "reservation_id":"5f569e603cae57002ab6c120",
+    "listing_title": "Palo Alto Startup House - Private room"
+  },
+  "Alamo Square": {
+    "checkIn": "2020-08-15 22:00:00",
+    "paid": "PAID: $609.16 of $609.16",
+    "checkOut": "2020-09-15 18:00:00",
+    "guest": "Aaron Wilson",
+    "phone": "+12137877071",
+    "timezone":  "America/Los_Angeles",
+    "room":  "Private",
+    "reservation_id":"5f22ef3ded49e400288a43bf",
+    "listing_title": "Alamo Square Startup House Semi - Private Room"
+  }
+}
